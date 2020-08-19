@@ -194,6 +194,13 @@ img.bg{
 	text-align: center;
 }
 
+footer {
+	background-color: #000000;
+	padding:20px;
+	margin-top:20px;
+	color: white;
+	text-align: center;
+}
 
 .fa {
   padding: 5px;
@@ -231,13 +238,7 @@ img.bg{
 }
 
 
-footer {
-	background-color: #000000;
-	padding:20px;
-	margin-top:20px;
-	color: white;
-	text-align: center;
-}
+
 
 
 
