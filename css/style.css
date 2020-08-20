@@ -93,43 +93,6 @@ img.smallscreen {
 	}
 }*/
 
-#Showcase {
-	min-height: 500px;
-	text-align: left;
-	color: #000000;
-}
-
-img.showcase{
-	vertical-align: middle;
-	height: 350px;
-	padding-right: 50px;
-	padding-left: 50px;
-}
-
-#Showcase h1{
-	margin-top: 150px;
-	font-size: 50px;
-	margin-bottom: 10px;
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
-#Showcase p{
-	font-size: 14px;
-	color: #000000;
-	padding-left: 50px;
-	padding-right: 50px;
-	display: inline-block;
-	word-break: normal; 
-}
-
-img.bg{
-	display: flex;
-	flex-wrap: wrap;
-	width: 100%;
-	height: auto;
-	vertical-align: middle;
-}
 
 @media screen and (max-width: 400px){
 	img.bg{
