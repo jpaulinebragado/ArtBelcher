@@ -13,11 +13,11 @@
 <body>
 <!--Navigation-->
 	<header>
-		<div class="container">
+		<div>
 			<div id="logo">
 				<a href="index.html"><img src="./img/logo.png"></a>
 			</div>
-			<nav id="navbar">
+			<nav>
 				<ul>
 					<li class="current"><a href="#Showcase"><span class="highlight">Home</span></a></li>
 					<li><a href="#About">About</a></li>
@@ -28,26 +28,15 @@
 				</ul>
 			</nav>
 		</div>
-		<script>
-// When the user scrolls down 20px from the top of the document, slide down the navbar
-window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-}
-</script>
 	</header>
 <!--Showcase-->
-	<section id="Showcase">
+	<section id="Showcase"  class="container">
 		<img class="bg" src="./img/showcase.jpg">
 	</section>
 
 <!--About-->
-	<section id="About">
+	<section id="About"  class="container">
 		<img class="bg" src="./img/about.jpg">
 		<p> </p>
 	</section>
@@ -90,13 +79,13 @@ function scrollFunction() {
 
 <br><br>
 <!--Commission-->
-	<section>
+	<section  class="container">
 		<img class="bg" src="./img/info.jpg">
 		</div>
 	</section>
 
 
-	<section id="Form">
+	<section id="Form"  class="container">
 	<img class="bg" src="./img/form.jpg">
 		<div id="button2">
 		<a href="https://forms.gle/GP5cr71tss5xcu7k7" class="button" target="_blank">Fill Out Form</a>
@@ -105,7 +94,7 @@ function scrollFunction() {
 	</section>
 
 
-	<section id="Contact">
+	<section id="Contact"  class="container">
 		<img class="bg" src="./img/contact.jpg">
 	</section>
 
