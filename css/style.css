@@ -200,7 +200,9 @@ footer {
 	margin-top:20px;
 	color: white;
 	text-align: center;
-	.fa {
+}
+
+.fa {
   padding: 5px;
   font-size: 12px;
   width: 15px;
@@ -233,9 +235,6 @@ footer {
   background: #1DB;
   color: white;
 }
-}
-
-
 
 
 
