@@ -202,7 +202,6 @@ footer {
 	text-align: center;
 	.fa {
   padding: 5px;
-  transform: translate(0%,-700%);
   font-size: 12px;
   width: 15px;
   height: 15px;
