@@ -16,6 +16,10 @@ body{
 	position: fixed;
 }
 
+.element{
+	scroll-snap-stop: always;
+}
+
 /* NAV */
 header{
 	background: #000000;
