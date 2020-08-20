@@ -34,7 +34,6 @@ header a{
 #logo{
 	width: 100%;
 	display: inline;
-	padding: 0 10px;
 	padding-bottom: 10px;
 }
 
@@ -70,7 +69,7 @@ header a:hover{
 	text-decoration: solid;
 	text-transform: uppercase;
 	border: 5px;
-	padding: 10px;
+	padding: 15px;
 	text-decoration: none;
 }
 
