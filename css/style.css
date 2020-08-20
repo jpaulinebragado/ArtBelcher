@@ -99,6 +99,7 @@ img.bg{
 	width: 100%;
 	height: auto;
 	vertical-align: middle;
+	scroll-snap-stop: always;
 }
 
 @media screen and (max-width: 400px){
@@ -150,6 +151,7 @@ img.bg{
 	text-align: center;
 	text-decoration: solid;
 	position: relative;
+	scroll-snap-stop: always;
 	}
 
 #button2{
@@ -161,10 +163,12 @@ img.bg{
 	transform: translate(-50%,0%);
 	text-decoration: none;
 }
-
+#Info{
+	scroll-snap-stop: always;
+}
 
 #Contact{
-	text-align: center;
+	scroll-snap-stop: always;
 }
 
 footer {
