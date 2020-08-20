@@ -200,9 +200,7 @@ footer {
 	margin-top:20px;
 	color: white;
 	text-align: center;
-}
-
-.fa {
+	.fa {
   padding: 5px;
   transform: translate(0%,-700%);
   font-size: 12px;
@@ -236,6 +234,9 @@ footer {
   background: #1DB;
   color: white;
 }
+}
+
+
 
 
 
