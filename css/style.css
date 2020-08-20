@@ -20,7 +20,7 @@ body{
 header{
 	background: #000000;
 	padding: 0;
-	min-height: 45px;
+	min-height: 90px;
 }
 
 header a{
@@ -120,6 +120,7 @@ img.showcase{
 	padding-left: 50px;
 	padding-right: 50px;
 	display: inline-block;
+	word-break: normal; 
 }
 
 img.bg{
