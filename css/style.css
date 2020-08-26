@@ -38,6 +38,7 @@ header a{
 #logo{
 	width: 100%;
 	display: inline;
+	padding-top: 5px;
 	padding-bottom: 10px;
 }
 
